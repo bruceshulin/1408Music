@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="no_play">""বর্তমানে চালু করতে অসমর্থ!"      "</string>
+    <string name="activity_title_delete">""গানগুলি সরিয়ে দিন"      "</string>
+    <string name="activity_title">গান যোগ করুন</string>
+    <string name="add_music">গান যোগ করুন</string>
+    <string name="music_selected_all">পঠিত/ অপঠিত</string>
+    <string name="confirm_add">যোগ করুন</string>
+    <string name="cancel_add">বাতিল</string>
+    <string name="delete_all_music">অপসারণ</string>
+    <string name="confirm_delete">অপসারণ</string>
+    <string name="music_selected_all_delete">খালি একটি কি নির্বাচন করুন</string>
+    <string name="music_cancle_selected_all">সব বাতিল করুন</string>
+    <string name="being_add">যুক্ত হচ্ছে, দয়া করে অপেক্ষা করুন …</string>
+    <string name="remove_track">""সরিয়ে দেওয়া হয়েছে, অনুগ্রহ করে অপেক্ষা করুন...."      "</string>
+    <string name="invalid">এই ডিরেক্টরির মধ্যে খোলা যাবে না</string>
+    <string name="from_library">লাইব্রেরি থেকে সঙ্গীত যুক্ত করুন</string>
+    <string name="from_folder">ফোল্ডার থেকে ভিডিও যোগ করুন</string>
+    <string name="lyrics_edit_title">""গানের কথা সম্পাদন করুন"      "</string>
+    <string name="nolrc">কোন গাথা বা ফাইল অকার্যকর নয়।</string>
+    <string name="del_track">""বিষয়গুলি মুছে ফেলা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."      "</string>
+    <string name="ringtone_title_sim1">SIM1 ফোন রিংটোন</string>
+    <string name="ringtone_title_sim2">SIM2 ফোন রিংটোন</string>
+    <string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" সিম 1 ফোন রিংটোন হিসেবে সেট.</string>
+    <string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" সিম 2 ফোন রিংটোন হিসেবে সেট.</string>
+    <string name="ring_set_fail">দুঃখিত, গান প্লে করা যাবে না। রিংটোন হিসেবে অন্য একটি গান নির্বাচন করুন।</string>
+    <string name="ring_set_silent_vibrate">""বর্তমান মোডে পছন্দমত রিংটোন বাজানো যাচ্ছে না"      "</string>
+    <string name="please_insert_sim_card">অন্তত সিম কার্ড প্রবেশ করুন অন্তত</string>
+    <string name="create_playlist_warning">সম্প্রতি যোগকৃতটির সঙ্গে একই নাম ব্যবহার করতে পারবেন না।</string>
+    <string name="overwrite_playlist_alert">প্লেলিস্ট তথ্য “<xliff:g id="NAME">%s</xliff:g>”মুছে ফেলা হবে."</string>
+    <string name="playlist_created_message">" প্লেলিস্ট তৈরি হয়েছে"</string>
+    <string name="overwrite_playlist_alert_rename">"<xliff:g id="NAME">%s</xliff:g>"এর মধ্যে প্লেলিস্ট তথ্য পুনরুদ্ধার  করা হবে " </string>
+    <string name="delete_artist">""ডিভাইস থেকে \"<xliff:g id="artist">%s</xliff:g>\"-এর দ্বারা সমস্ত গানগুলিকে বরাবরের মত মুছে ফেলুন?"      "</string>
+    <string name="delete_album">""ডিভাইস থেকে \"<xliff:g id="album">%s</xliff:g>\" সম্পূর্ণ অ্যালবাম বরাবরের মত মুছে দিন?"      "</string>
+    <string name="delete_song">""ডিভাইস থেকে \"<xliff:g id="song">%s</xliff:g>\" বরাবরের মত মুছুন?"      "</string>
+    <string name="display_music">সঙ্গীত</string>
+    <string name="quit">অব্যাহতিপ্রাপ্ত</string>
+    <string name="delete_playlist_message">"আপনি কি নিশ্চিত প্লে লিস্ট "%1$s" মুছে ফেলতে চান? "</string>
+
+</resources>

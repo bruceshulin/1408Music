@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Spreadst -->
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <attr name="ic_menu_moreoverflow" format="reference" />
+    
+    <style name="MusicTheme"
+        parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:windowActionBarOverlay">false</item>  
+        <item name="android:actionBarStyle">@style/ActionBarStyleNewUI</item>
+        <item name="android:fastScrollTextColor">#ffff6400</item>
+        <item name="android:statusBarColor">#c2185b</item>
+        <item name="android:colorPrimary">#e91e63</item>
+    </style>
+      <style name="ActionBarStyleNewUI" parent="@android:style/Widget.Material.Light.ActionBar">
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyleNewUI</item>
+        <item name="android:backgroundSplit">@null</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="ActionBarTitleTextStyleNewUI" parent="android:TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/background_light</item> 
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MusicPickerTheme" parent="@style/MusicTheme">
+        <item name="android:actionBarStyle">@style/ActionBarPickerStyle</item>
+    </style>
+
+    <style name="ActionBarPickerStyle" parent="@style/ActionBarStyleNewUI">
+        <item name="android:elevation">8dp</item>
+    </style>
+    <style name="Theme.NoDisplay" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoDisplay">false</item>
+    </style>
+</resources>

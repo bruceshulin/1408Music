@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">གླུ་གཞས་1</string>
+<plurals name="Nsongs">
+<item quantity="other">གཞས་<xliff:g id="COUNT">%d</xliff:g></item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> གི <xliff:g id="total_count">%1$d</xliff:g> གླུ་དབྱངས་རྣམས། </item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">མཆེད་བསྒྲིགས་1</item>
+<item quantity="other">ཆེད་བསྒྲིགས་<xliff:g id="COUNT">%d</xliff:g></item>
+</plurals>
+<string name="goto_start">གཞས་མཛོད།</string>
+<string name="party_shuffle">འདུ་འཛོམས་སྐབས་བསྟུན་གཏོང་བ།</string>
+<string name="party_shuffle_off">འདུ་འཛོམས་སྐབས་བསྟུན་གཏོང་བ་ཁ་རྒྱག་པ།</string>
+<string name="delete_item">སུབ་པ།</string>
+<string name="shuffle_all">ཚང་མ་སྐབས་བསྟུན་གཏོང་།</string>
+<string name="play_all">"ཚང་མ་སྒྲོག་གཏོང་བྱེད། "</string>
+<string name="delete_artist_desc">"SDབྱང་བུ་ནས་<xliff:g id="ARTIST">%s</xliff:g>ཡི་རོལ་དབྱངས་མཐའ་དག་ཡུན་གཏན་དུ་གསུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_artist_desc_nosdcard">"USBསྒྲིག་ཆས་ནས་<xliff:g id="ARTIST">%s</xliff:g>ཡི་རོལ་དབྱངས་མཐའ་དག་ཡུན་གཏན་དུ་གསུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_album_desc">"SDབྱང་བུ་ནས་<xliff:g id="ALBUM">%s</xliff:g>ཡི་ཆེད་སྒྲིག་ཧྲིལ་པོ་ཡུན་གཏན་དུ་སུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_album_desc_nosdcard">"USBགསོག་ཉར་སྒྲིག་ཆས་ནས་<xliff:g id="ALBUM">%s</xliff:g>ཡི་ཆེད་སྒྲིག་ཧྲིལ་པོ་ཡུན་གཏན་དུ་སུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_song_desc">"SDབྱང་བུ་ནས་<xliff:g id="SONG">%s</xliff:g>ཡུན་གཏན་དུ་གསུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_song_desc_nosdcard">"USBགསོག་ཉར་སྒྲིག་ཆས་ནས་<xliff:g id="SONG">%s</xliff:g>ཡུན་གཏན་དུ་གསུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_confirm_button_text">རྒྱུས་ལོན་པ།</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">གླུ་དབྱངས 1 དོར་ཟིན། </item>
+<item quantity="other">གཞས་<xliff:g id="SONGS_TO_DELETE">%d</xliff:g>སུབ་ཟིན།</item>
+</plurals>
+<string name="scanning">SD བྱང་བུ་ལ་གཟུགས་བཤེར་བྱེད་བཞིན་པ། </string>
+<string name="scanning_nosdcard">USB གསོག་ཉར་བྱེད་ཆས་ལ་གཟུགས་བཤེར་བྱེད་བཞིན་པ།</string>
+<string name="nowplaying_title">གཞས་གཏོང་བཞིན་ཡོད།</string>
+<string name="partyshuffle_title">འདུ་འཛོམས་སྐབས་བསྟུན་གཏོང་བ།</string>
+<string name="artists_title">སྒྱུར་རྩལ་མཁན།</string>
+<string name="albums_menu">ཆེད་བསྒྲིགས།</string>
+<string name="albums_title">ཆེད་བསྒྲིགས།</string>
+<string name="tracks_menu">གླུ་གཞས།</string>
+<string name="tracks_title">གླུ་གཞས།</string>
+<string name="playlists_menu">"སྒྲོག་གཏོང་སྟར་བྱང་། "</string>
+<string name="playlists_title">"སྒྲོག་གཏོང་སྟར་བྱང་། "</string>
+<string name="videos_title">བརྙན་ཟློས།</string>
+<string name="all_title">སྨྱོན་གཟུགས་ཡོད་ཚད།</string>
+<string name="browse_menu">སྒྱུར་རྩལ་མཁན།</string>
+<string name="search_title">འཚོལ་བཤེར།</string>
+<string name="no_tracks_title">གཞས་མི་འདུག</string>
+<string name="no_videos_title">བརྙན་ཟློས་མི་འདུག</string>
+<string name="no_playlists_title">གཏོང་བའི་གསལ་ཐོ་མི་འདུག</string>
+<string name="delete_playlist_menu">སུབ་པ།</string>
+<string name="edit_playlist_menu">རྩོམ་སྒྲིག</string>
+<string name="rename_playlist_menu">མིང་བསྐྱར་འདོགས།</string>
+<string name="playlist_deleted_message">གཏོང་བའི་གསལ་ཐོ་སུབ་ཟིན།</string>
+<string name="playlist_renamed_message">གཏོང་བའི་གསལ་ཐོར་མིང་བསྐྱར་འདོགས།</string>
+<string name="recentlyadded">ཉེ་ལམ་ཁ་སྣོན་བྱས་པའི་གཞས།</string>
+<string name="recentlyadded_title">ཉེ་ལམ་ཁ་སྣོན་བྱས་པའི་གཞས།</string>
+<string name="podcasts_listitem">"སྒྲོག་མཁན། "</string>
+<string name="podcasts_title">"སྒྲོག་མཁན། "</string>
+<string name="sdcard_missing_title">SDཁཱ་མི་འདུག</string>
+<string name="sdcard_missing_title_nosdcard">USBཉར་གསོག་སྒྲིག་ཆས་མི་འདུག</string>
+<string name="sdcard_missing_message">"ཁ་པར་ནང་ SD བྱང་བུ་འཛེར་མེད། "</string>
+<string name="sdcard_missing_message_nosdcard">"ཁྱེད་ཀྱི་ཁ་པར་ནང་ USB གསོག་ཉར་སྒྲིག་ཆས་མེད། "</string>
+<string name="sdcard_busy_title">SDཁཱ་བེད་སྤྱོད་མེད།</string>
+<string name="sdcard_busy_title_nosdcard">USBགནས་མེད།</string>
+<string name="sdcard_busy_message">"ཁྱེད་ཀྱི་SDབྱང་བུར་ཁོམ་ལོང་མི་འདུག"</string>
+<string name="sdcard_busy_message_nosdcard">"ཁྱེད་ཀྱི་USBགསོག་ཆས་ལ་ཁོམ་ལོང་མི་འདུག"</string>
+<string name="sdcard_error_title">SDཁཱ་ནོར་བ།</string>
+<string name="sdcard_error_title_nosdcard">USBགསོག་ཉར་སྒྲིག་ཆས་ནོར་བ།</string>
+<string name="sdcard_error_message">SDཁཱ་ལ་ནོར་འཁྲུལ་འདོན་པ།</string>
+<string name="sdcard_error_message_nosdcard">USBགསོག་ཉར་སྒྲིག་ཆས་ལ་ནོར་འཁྲུལ་འདོན་པ།</string>
+<string name="unknown_artist_name">མི་ཤེས་པའི་ཉེར་སྤྱོད་བྱ་རིམ།</string>
+<string name="unknown_album_name">མི་ཤེས་པའི་ཨང་གྲངས།</string>
+<string name="shuffle_on_notif">སྐབས་བསྟུན་གཏོང་བ་ཁ་ཕྱེ་ཟིན།</string>
+<string name="shuffle_off_notif">སྐབས་བསྟུན་གཏོང་བ་ཁ་བརྒྱབ་ཟིན།</string>
+<string name="repeat_off_notif">བསྐྱར་ཟློས་གཏོང་བ་ཁ་བརྒྱབ་ཟིན།</string>
+<string name="repeat_current_notif">མིག་སྔའི་གཞས་བསྐྱར་ཟློས་གཏོང་བ།</string>
+<string name="repeat_all_notif">གཞས་ཡོད་ཚད་བསྐྱར་ཟློས་གཏོང་བ།</string>
+<string name="ringtone_menu">ཁ་པར་གྱི་ཐིར་སྒྲར་བྱེད་པ།</string>
+<string name="ringtone_menu_short">ཐིར་སྒྲར་བྱེད་པ།</string>
+<string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ཁ་པར་གྱི་དྲིལ་སྒྲར་བཀོད་པ། </string>
+<string name="play_selection">"གཏོང་བ།"</string>
+<string name="add_to_playlist">གཏོང་བའི་གསལ་ཐོར་ཁ་སྣོན་བྱེད།</string>
+<string name="queue">མིག་སྔའི་གཏོང་བའི་གསལ་ཐོ།</string>
+<string name="new_playlist">གསར་འཛུགས།</string>
+<string name="new_playlist_name_template">གཏོང་བའི་རེའུ་མིག་གསར་བ <xliff:g id="number">%d</xliff:g></string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">གླུ་གཞས་1གཏོང་བའི་གསལ་ཐོའི་ནང་ཁ་སྣོན་ཟིན།</item>
+<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> གླུ་དབྱངས་རྣམས་གཏོང་རྒྱུའི་རེའུ་མིག་ཏུ་བཀོད་ཟིན། </item>
+</plurals>
+<string name="emptyplaylist">ཁྱེད་ཀྱིས་འདེམས་པའི་གཏོང་བའི་གསལ་ཐོ་སྟོང་པ་རེད།</string>
+<string name="create_playlist_create_text">ཉར་ཚགས།</string>
+<string name="create_playlist_overwrite_text">འགེབས་པ།</string>
+<string name="service_start_error_title">གཏོང་བའི་གནས་ཚུལ།</string>
+<string name="service_start_error_msg">"ཐུགས་རྒྱལ་མ་བཞེངས།  གླུ་དབྱངས་འདི་སྒྲོག་གཏོང་བྱེད་ཐབས་མེད། "</string>
+<string name="service_start_error_button">རྒྱུས་ལོན་པ།</string>
+<string-array name="weeklist">
+<item>གཟའ་འཁོར་གཅིག</item>
+<item>གཟའ་འཁོར 2</item>
+<item>གཟའ་འཁོར 3</item>
+<item>གཟའ་འཁོར 4</item>
+<item>གཟའ་འཁོར 5</item>
+<item>གཟའ་འཁོར 6</item>
+<item>གཟའ་འཁོར 7</item>
+<item>གཟའ་འཁོར 8</item>
+<item>གཟའ་འཁོར 9</item>
+<item>གཟའ་འཁོར 10</item>
+<item>གཟའ་འཁོར 11</item>
+<item>གཟའ་འཁོར 12</item>
+</string-array>
+<string name="weekpicker_set">ལེགས་གྲུབ།</string>
+<string name="weekpicker_title">དུས་ཚོད་སྒྲི་འགོད།</string>
+<string name="save_as_playlist">གཏོང་བའི་གསལ་ཐོ་ཟུར་ཉར།</string>
+<string name="clear_playlist">གཏོང་བའི་གསལ་ཐོ་གཙང་སེལ།</string>
+<string name="musicbrowserlabel">གླུ་གཞས།</string>
+<string name="musicshortcutlabel">གླུ་གཞས་གཏོང་བའི་གསལ་ཐོ</string>
+<string name="mediaplaybacklabel">གླུ་གཞས།</string>
+<string name="videobrowserlabel">བརྙན་ཟློས།</string>
+<string name="mediapickerlabel">གླུ་གཞས།</string>
+<string name="playback_failed">"ཐུགས་རྒྱལ་མ་བཞེངས། སྒྲོག་གཏོང་ཆས་ཀྱིས་རོལ་དབྱངས་ཡིག་ཆ་དེར་རྒྱབ་སྐྱོར་མི་བྱེད།"</string>
+<string name="cancel">སྐྱུར་བ།</string>
+<string name="remove_from_playlist">ལོ་རྒྱུས་ཟིན་ཐོ་ནང་ནས་སུབ་པ།</string>
+<string name="streamloadingtext">"<xliff:g id="HOST">%s</xliff:g>ལ་སྦྲེལ་བཞིན་འདུག…"</string>
+<string name="mediasearch">གཤམ་གྱི་ལག་ཆ་བཀོལ་ཏེ་འཚོལ་བཤེར་བྱེད་པ། <xliff:g id="term" example="Beethoven">%s</xliff:g> </string>
+<string name="working_artists">སྒྱུར་རྩལ་མཁན།...</string>
+<string name="working_albums">ཆེད་བསྒྲིགས།</string>
+<string name="working_songs">གླུ་གཞས།</string>
+<string name="working_playlists">གཏོང་བའི་གསལ་ཐོ།...</string>
+<string name="loading">"ནང་འཇུག་བྱེད་བཞིན་པ།..."</string>
+<string name="sort_by_track">གཞས</string>
+<string name="sort_by_album">ཆེད་བསྒྲིགས།</string>
+<string name="sort_by_artist">སྒྱུར་རྩལ་མཁན།</string>
+<string name="music_picker_title">"དཀར་ཆག་འདམ།"</string>
+<string name="search_settings_description">སྒྱུར་རྩལ་མཁན། ཆེད་བསྒྲིགས་དང་གཞས།</string>
+<string name="search_hint">གླུ་གཞས་འཚོལ་བ།</string>
+<string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+<string name="widget_initial_text">"རེག་ནས་རོལ་དབྱངས་འདམ།"</string>
+<string name="effectspanel">སྒྲ་ནུས།</string>
+<string name="no_play">"ད་སྐབས་རོལ་དབྱངས་གཏོང་ཐབས་མི་འདུག"</string>
+<string name="activity_title_delete">"རོལ་དབྱངས་སུབ།"</string>
+<string name="activity_title">གླུ་གཞས་ཁ་སྣོན།</string>
+<string name="add_music">གླུ་གཞས་ཁ་སྣོན།</string>
+<string name="music_selected_all">ཡོངས་འདེམས།</string>
+<string name="confirm_add">ཁ་སྣོན།</string>
+<string name="cancel_add">སྐྱུར་བ།</string>
+<string name="delete_all_music">སུབ་པ།</string>
+<string name="confirm_delete">སུབ་པ།</string>
+<string name="music_selected_all_delete">ཡོངས་འདེམས་མཐེབ་གཅིག་གཙང་སེལ།</string>
+<string name="music_cancle_selected_all">ཚང་མ་སྐྱུར་བ།</string>
+<string name="being_add">སྣོན་བཞིན་འདུག ཅུང་ཙམ་སྒུགས་རོགས།…</string>
+<string name="remove_track">"རོལ་དབྱངས་སུབ་བཞིན་འདུག"</string>
+<string name="invalid">དཀར་ཆག་འདིའི་ཁ་འབྱེད་མི་ཐུབ། </string>
+<string name="from_library">གླུ་དབྱངས་མཛོད་ནས་ཁ་སྣོན་བྱེད་པ། </string>
+<string name="from_folder">ཡིག་ཚགས་ནས་གླུ་དབྱངས་ཁ་སྣོན་བྱེད་པ། </string>
+<string name="lyrics_edit_title">"གླུ་ཚིག་རྩོམ་སྒྲིག་བྱེད།"</string>
+<string name="nolrc">གླུ་ཚིག་ཡིག་ཆ་མེད་པའམ་ནུས་མེད་ཡིན།</string>
+<string name="del_track">"སུབ་བཞིན་འདུག ཨེན་ཙམ་སྒུག་རོགས།…"</string>
+<string name="ringtone_title_sim1">"SIM1 ཁ་པར་དྲིལ་སྒྲ།"</string>
+<string name="ringtone_title_sim2">SIM2ཁ་པར་ཐིར་སྒྲ།</string>
+<string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\"  SIM1བྱང་བུའི་དྲིལ་སྒྲར་བཀོད་པ། </string>
+<string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" SIM2 བྱང་བའི་དྲིལ་སྒྲར་བཀོད་པ། </string>
+<string name="ring_set_fail">དགོངས་པ་མ་ཚོམ། རོལ་དབྱངས་དེ་གཏོང་ཐབས་མི་འདུག རོལ་དབྱངས་གཞན་པ་ཞིག་དྲིལ་སྒྲར་འདམ་རོགས།</string>
+<string name="ring_set_silent_vibrate">"ད་སྐབས་ཀྱི་རྣམ་པས་རང་ལེན་དྲིལ་སྒྲར་རྒྱབ་སྐྱོར་མི་བྱེད།"</string>
+<string name="please_insert_sim_card">"ཉུང་མཐར་ཡང་SIM བྱང་བུ་གཅིག་འཇུག་རོགས།"</string>
+<string name="create_playlist_warning">སྔོན་དུ་བསྣན་པའི་ཡིག་ཆའི་མིང་བསྐྱར་དུ་སྤྱོད་མི་ཐུབ།</string>
+<string name="overwrite_playlist_alert">"གཞས་ཀྱི་རེའུ་མིང། “<xliff:g id="NAME">%s</xliff:g>” སྟོང་པ་ཆག་སྲིད།."</string>
+<string name="playlist_created_message">"སྒྲོག་གཏོང་སྟར་བྱང་བཙུགས་ཟིན།"</string>
+<string name="overwrite_playlist_alert_rename">"སྒྲོག་གཏོང་སྟར་བྱང་“<xliff:g id="NAME">%s</xliff:g>”ནང་གི་དན་གྲངས་འགེབས་ངེས་ཡིན།"</string>
+<string name="delete_artist">"སྒྲིག་ཆས་ནས་<xliff:g id="ARTIST">%s</xliff:g>ཡི་རོལ་དབྱངས་མཐའ་དག་སུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_album">"སྒྲིག་ཆས་ནས་<xliff:g id="ALBUM">%s</xliff:g>ཆེད་སྒྲིག་ཧྲིལ་པོ་ཡུན་གཏན་དུ་སུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="delete_song">"སྒྲིག་ཆས་ནས་<xliff:g id="SONG">%s</xliff:g>ཡུན་གཏན་དུ་གསུབ་རྒྱུ་ཡིན་ནམ།"</string>
+<string name="display_music">གླུ་གཞས།</string>
+<string name="quit">ཕྱིར་ཐོན།</string>
+<string name="delete_playlist_message">"སྒྲོག་གཏོང་སྟར་བྱང་"%1$s"སུབ་ཁོ་ཐག་ཡིན་ནམ།"</string>
+</resources>

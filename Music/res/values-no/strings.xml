@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">"En sang"</string>
+<plurals name="Nsongs">
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> sanger"</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other">"<xliff:g id="count_for_artist">%2$d</xliff:g> av <xliff:g id="total_count">%1$d</xliff:g> sanger"</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">"1 album"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> album"</item>
+</plurals>
+<string name="goto_start">"Bibliotek"</string>
+<string name="party_shuffle">"Party shuffle"</string>
+<string name="party_shuffle_off">"Party shuffle Av"</string>
+<string name="delete_item">"Slett"</string>
+<string name="shuffle_all">"Shuffle Alle"</string>
+<string name="play_all">"Spill av alle"</string>
+<string name="delete_artist_desc">"Vil du slette alle sanger av  <xliff:g id="artist">%s</xliff:g> fra SD-kort?"</string>
+<string name="delete_artist_desc_nosdcard">"Vil du slette alle sanger av <xliff:g id="artist">%s</xliff:g> fra USB-lagring?"</string>
+<string name="delete_album_desc">"Vil du slette hele albumet  \"<xliff:g id="album">%s</xliff:g>\" fra SD-kortet?"</string>
+<string name="delete_album_desc_nosdcard">"Vil du slette hele albumet \"<xliff:g id="album">%s</xliff:g>\" Fra USB-lagring?"</string>
+<string name="delete_song_desc">"Vil du permanent slette \"<xliff:g id="song">%s</xliff:g>\" fra SD-kortet?"</string>
+<string name="delete_song_desc_nosdcard">"Vil du permanent slette \"<xliff:g id="song">%s</xliff:g>\" fra USB-lagring?"</string>
+<string name="delete_confirm_button_text">"OK"</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">"En sang ble slettet."</item>
+<item quantity="other">"<xliff:g id="songs_to_delete">%d</xliff:g> sanger ble slettet"</item>
+</plurals>
+<string name="scanning">"Skanner SD-kort \u2026"</string>
+<string name="scanning_nosdcard">"Skanner USB-lagringsenhet \u2026"</string>
+<string name="nowplaying_title">"Spilles av nå"</string>
+<string name="partyshuffle_title">"Party shuffle"</string>
+<string name="artists_title">"Artister"</string>
+<string name="albums_menu">"Album"</string>
+<string name="albums_title">"Album"</string>
+<string name="tracks_menu">"Sanger"</string>
+<string name="tracks_title">"Sanger"</string>
+<string name="playlists_menu">"Spillelister"</string>
+<string name="playlists_title">"Spillelister"</string>
+<string name="videos_title">"Videoer"</string>
+<string name="all_title">"All media"</string>
+<string name="browse_menu">"Artister"</string>
+<string name="search_title">"Søk"</string>
+<string name="no_tracks_title">"Ingen sanger"</string>
+<string name="no_videos_title">"Ingen videoer"</string>
+<string name="no_playlists_title">"Ingen spillelister"</string>
+<string name="delete_playlist_menu">"Slett"</string>
+<string name="edit_playlist_menu">"Endre"</string>
+<string name="rename_playlist_menu">"Gi nytt navn"</string>
+<string name="playlist_deleted_message">"Spillelisten er slettet."</string>
+<string name="playlist_renamed_message">"Spilleliste har nytt navn."</string>
+<string name="recentlyadded">"Nylig lagt til"</string>
+<string name="recentlyadded_title">"Nylig lagt til"</string>
+<string name="podcasts_listitem">"Podcasts"</string>
+<string name="podcasts_title">"Podcasts"</string>
+<string name="sdcard_missing_title">"Inget SD-kort"</string>
+<string name="sdcard_missing_title_nosdcard">"Ingen USB-lagring"</string>
+<string name="sdcard_missing_message">"Telefonen har ikke et innsatt SD-kort."</string>
+<string name="sdcard_missing_message_nosdcard">"Telefonen har ikke USB-lagring."</string>
+<string name="sdcard_busy_title">"SD-kort utilgjengelig"</string>
+<string name="sdcard_busy_title_nosdcard">"USB-lagring utilgjengelig"</string>
+<string name="sdcard_busy_message">"Ditt SD-kort er opptatt."</string>
+<string name="sdcard_busy_message_nosdcard">"USB-lagring er opptatt."</string>
+<string name="sdcard_error_title">"SD card feil"</string>
+<string name="sdcard_error_title_nosdcard">"USB-lagringsfeil "</string>
+<string name="sdcard_error_message">"Det oppstod en feil på SD-kortet."</string>
+<string name="sdcard_error_message_nosdcard">"Det oppstod en feil på USB-lagringsenhet."</string>
+<string name="unknown_artist_name">"Ukjent artist"</string>
+<string name="unknown_album_name">"Ukjent album"</string>
+<string name="shuffle_on_notif">"Shuffle er på."</string>
+<string name="shuffle_off_notif">"Shuffle er av."</string>
+<string name="repeat_off_notif">"Repeat er av."</string>
+<string name="repeat_current_notif">"Gjentar gjeldende sang."</string>
+<string name="repeat_all_notif">"Gjentar alle sanger."</string>
+<string name="ringtone_menu">"Bruk som ringetone"</string>
+<string name="ringtone_menu_short">"Bruk som ringetone"</string>
+<string name="ringtone_set">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" valgt som telefonringetone"</string>
+<string name="play_selection">"Spill av"</string>
+<string name="add_to_playlist">"Legg til i spilleliste"</string>
+<string name="queue">"Gjeldende spilleliste"</string>
+<string name="new_playlist">"NY"</string>
+<string name="new_playlist_name_template">"Ny spilleliste  <xliff:g id="number">%d</xliff:g>"</string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">"En sang lagt til spillelisten."</item>
+<item quantity="other">"<xliff:g id="number" example="27">%d</xliff:g> sanger lagt til spillelisten"</item>
+</plurals>
+<string name="emptyplaylist">"Den valgte spillelisten er tom."</string>
+<string name="create_playlist_create_text">"Lagre"</string>
+<string name="create_playlist_overwrite_text">"Overskriv"</string>
+<string name="service_start_error_title">"Playback problem"</string>
+<string name="service_start_error_msg">"Sangen kunne ikke spilles."</string>
+<string name="service_start_error_button">"OK"</string>
+<string-array name="weeklist">
+<item>"En uke"</item>
+<item>"2 uker"</item>
+<item>"3 uker"</item>
+<item>"4 uker"</item>
+<item>"5 uker"</item>
+<item>"6 uker"</item>
+<item>"7 uker"</item>
+<item>"8 uker"</item>
+<item>"9 uker"</item>
+<item>"10 uker"</item>
+<item>"11 uker"</item>
+<item>"12 uker"</item>
+</string-array>
+<string name="weekpicker_set">"Fullført"</string>
+<string name="weekpicker_title">"velg tid"</string>
+<string name="save_as_playlist">"Lagre som spilleliste"</string>
+<string name="clear_playlist">"Fjern spilleliste"</string>
+<string name="musicbrowserlabel">"Musikk"</string>
+<string name="musicshortcutlabel">"Musikkspilleliste"</string>
+<string name="mediaplaybacklabel">"Musikk"</string>
+<string name="videobrowserlabel">"Videoer"</string>
+<string name="mediapickerlabel">"Musikk"</string>
+<string name="playback_failed">"Spilleren støtter ikke denne typen lydfil."</string>
+<string name="cancel">"Avbryt"</string>
+<string name="remove_from_playlist">"Fjern fra spilleliste"</string>
+<string name="streamloadingtext">"Koble til <xliff:g id="host">%s</xliff:g>\u2026"</string>
+<string name="mediasearch">"Søk etter <xliff:g id="term" example="Beethoven">%s</xliff:g> bruker:"</string>
+<string name="working_artists">"Artister \u2026"</string>
+<string name="working_albums">"Album \u2026"</string>
+<string name="working_songs">"Sanger \u2026"</string>
+<string name="working_playlists">"Spillelister \u2026"</string>
+<string name="loading">"Laster \u2026"</string>
+<string name="sort_by_track">"Spor"</string>
+<string name="sort_by_album">"Album"</string>
+<string name="sort_by_artist">"Artister"</string>
+<string name="music_picker_title">"Velg musikkspor"</string>
+<string name="search_settings_description">"Artister, album og spor"</string>
+<string name="search_hint">"Søk Musikk"</string>
+<string name="fast_scroll_alphabet">"\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
+<string name="widget_initial_text">"Trykk for å velge musikk."</string>
+<string name="effectspanel">"Lydeffekter"</string>
+<string name="no_play">"For øyeblikket ikke i stand til å spille!"</string>
+<string name="activity_title_delete">"Fjern sanger"</string>
+<string name="activity_title">"Legg til musikk"</string>
+<string name="add_music">"Legg til musikk"</string>
+<string name="music_selected_all">"Velg alle"</string>
+<string name="confirm_add">"Legg til"</string>
+<string name="cancel_add">"Avbryt"</string>
+<string name="delete_all_music">"Fjern"</string>
+<string name="confirm_delete">"Fjern"</string>
+<string name="music_selected_all_delete">"Velg en tom tast"</string>
+<string name="music_cancle_selected_all">"Avbryt alle"</string>
+<string name="being_add">"Blir lagt til, vennligst vent ..."</string>
+<string name="remove_track">"Blir fjernet, vennligst vent ..."</string>
+<string name="invalid">"Denne katalogen kan ikke åpnes"</string>
+<string name="from_library">"Legg til musikk fra biblioteket"</string>
+<string name="from_folder">"Legg til musikk fra mapplikasjonen"</string>
+<string name="lyrics_edit_title">"Endre sangtekst"</string>
+<string name="nolrc">"Ingen sangtekst eller filen er ugyldig"</string>
+<string name="del_track">"Sletter elementer, vennligst vent ..."</string>
+<string name="ringtone_title_sim1">"SIM1 Ringetone"</string>
+<string name="ringtone_title_sim2">"SIM2 Ringetone"</string>
+<string name="ringtone_set_sim1">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" valgt som SIM1 Ringetone"</string>
+<string name="ringtone_set_sim2">"\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" valgt som SIM2 Ringetone"</string>
+<string name="ring_set_fail">"Beklager, sangen kunne ikke spilles av. Velg en annen sang som ringetone"</string>
+<string name="ring_set_silent_vibrate">"Tilpassede ringetoner støttes ikke i gjeldende modus"</string>
+<string name="please_insert_sim_card">"Sett i det minste inn et SIM-kort"</string>
+<string name="create_playlist_warning">"Kan ikke bruke samme navn som nylig lagt til."</string>
+<string name="overwrite_playlist_alert">"Spilleliste data i “<xliff:g id="NAME">%s</xliff:g>” Vil bli slettet"</string>
+<string name="playlist_created_message">"Spilleliste opprettet."</string>
+<string name="overwrite_playlist_alert_rename">"Spilleliste data i “<xliff:g id="NAME">%s</xliff:g>” Vil bli overskrevet"</string>
+<string name="delete_artist">"Vil du slette alle sanger av \"<xliff:g id="artist">%s</xliff:g>\" fra enheten?"</string>
+<string name="delete_album">"Vil du slette hele albumet \"<xliff:g id="album">%s</xliff:g>\" fra enheten?"</string>
+<string name="delete_song">"Vil du slette \"<xliff:g id="song">%s</xliff:g>\" fra enheten?"</string>
+<string name="display_music">"Musikk"</string>
+<string name="quit">"Avslutt"</string>
+<string name="delete_playlist_message">"Er du sikker på at du vil slette spillelisten "%1$s"?"</string>
+</resources>

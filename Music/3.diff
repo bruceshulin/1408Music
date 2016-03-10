@@ -1,0 +1,1770 @@
+diff --git a/apps/Music/Android.mk b/apps/Music/Android.mk
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/AndroidManifest.xml b/apps/Music/AndroidManifest.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/CleanSpec.mk b/apps/Music/CleanSpec.mk
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/MODULE_LICENSE_APACHE2 b/apps/Music/MODULE_LICENSE_APACHE2
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/NOTICE b/apps/Music/NOTICE
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/drawable-mdpi.zip b/apps/Music/drawable-mdpi.zip
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/proguard.flags b/apps/Music/proguard.flags
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/color/button_ok_selector.xml b/apps/Music/res/color/button_ok_selector.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/color/music_picker_button.xml b/apps/Music/res/color/music_picker_button.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/color/tab_indicator_text.xml b/apps/Music/res/color/tab_indicator_text.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/album_border_large.9.png b/apps/Music/res/drawable-hdpi/album_border_large.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/albumart_mp_unknown_list.png b/apps/Music/res/drawable-hdpi/albumart_mp_unknown_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/app_music.png b/apps/Music/res/drawable-hdpi/app_music.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/app_video.png b/apps/Music/res/drawable-hdpi/app_video.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_bg.9.png b/apps/Music/res/drawable-hdpi/appwidget_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_divider.9.png b/apps/Music/res/drawable-hdpi/appwidget_divider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_focus_c.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_focus_c.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_focus_l.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_focus_l.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_focus_r.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_focus_r.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_press_c.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_press_c.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_press_l.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_press_l.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/appwidget_inner_press_r.9.png b/apps/Music/res/drawable-hdpi/appwidget_inner_press_r.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/back_icon.png b/apps/Music/res/drawable-hdpi/back_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/back_pressed.png b/apps/Music/res/drawable-hdpi/back_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_ic_normal.png b/apps/Music/res/drawable-hdpi/btn_playback_ic_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_ic_pause_small.png b/apps/Music/res/drawable-hdpi/btn_playback_ic_pause_small.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_ic_play_small.png b/apps/Music/res/drawable-hdpi/btn_playback_ic_play_small.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_play.png b/apps/Music/res/drawable-hdpi/btn_playback_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_small_normal.png b/apps/Music/res/drawable-hdpi/btn_playback_small_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_small_pressed.png b/apps/Music/res/drawable-hdpi/btn_playback_small_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_small_selected.png b/apps/Music/res/drawable-hdpi/btn_playback_small_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/btn_playback_stop.png b/apps/Music/res/drawable-hdpi/btn_playback_stop.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/buttonbar_active.9.png b/apps/Music/res/drawable-hdpi/buttonbar_active.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/buttonbar_focused.9.png b/apps/Music/res/drawable-hdpi/buttonbar_focused.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/buttonbar_inactive.9.png b/apps/Music/res/drawable-hdpi/buttonbar_inactive.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/buttonbar_pressed.9.png b/apps/Music/res/drawable-hdpi/buttonbar_pressed.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/devider.9.png b/apps/Music/res/drawable-hdpi/devider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/folder_icon.png b/apps/Music/res/drawable-hdpi/folder_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_next.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_next.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_next_press.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_next_press.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_pause.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_pause.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_play.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_prev.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_prev.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_appwidget_music_prev_press.png b/apps/Music/res/drawable-hdpi/ic_appwidget_music_prev_press.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_launcher_shortcut_music_playlist.png b/apps/Music/res/drawable-hdpi/ic_launcher_shortcut_music_playlist.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_media_pause.png b/apps/Music/res/drawable-hdpi/ic_media_pause.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_media_play.png b/apps/Music/res/drawable-hdpi/ic_media_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_clear_playlist.png b/apps/Music/res/drawable-hdpi/ic_menu_clear_playlist.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_delete.png b/apps/Music/res/drawable-hdpi/ic_menu_delete.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_eq.png b/apps/Music/res/drawable-hdpi/ic_menu_eq.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_music_library.png b/apps/Music/res/drawable-hdpi/ic_menu_music_library.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_party_shuffle.png b/apps/Music/res/drawable-hdpi/ic_menu_party_shuffle.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_play_clip.png b/apps/Music/res/drawable-hdpi/ic_menu_play_clip.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_set_as_ringtone.png b/apps/Music/res/drawable-hdpi/ic_menu_set_as_ringtone.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_menu_shuffle.png b/apps/Music/res/drawable-hdpi/ic_menu_shuffle.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_album_playback.png b/apps/Music/res/drawable-hdpi/ic_mp_album_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_artist_list.9.png b/apps/Music/res/drawable-hdpi/ic_mp_artist_list.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_artist_list_expand.9.png b/apps/Music/res/drawable-hdpi/ic_mp_artist_list_expand.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_artist_list_query.png b/apps/Music/res/drawable-hdpi/ic_mp_artist_list_query.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_artist_playback.png b/apps/Music/res/drawable-hdpi/ic_mp_artist_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_current_playlist_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_current_playlist_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_partyshuffle_on_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_partyshuffle_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_playlist_list.png b/apps/Music/res/drawable-hdpi/ic_mp_playlist_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_playlist_recently_added_list.png b/apps/Music/res/drawable-hdpi/ic_mp_playlist_recently_added_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_repeat_all_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_repeat_all_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_repeat_off_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_repeat_off_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_repeat_on_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_repeat_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_repeat_once_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_repeat_once_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_sd_card.png b/apps/Music/res/drawable-hdpi/ic_mp_sd_card.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_shuffle_off_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_shuffle_off_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_shuffle_on_btn.png b/apps/Music/res/drawable-hdpi/ic_mp_shuffle_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_song_list.png b/apps/Music/res/drawable-hdpi/ic_mp_song_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_mp_song_playback.png b/apps/Music/res/drawable-hdpi/ic_mp_song_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_search_category_music_song.png b/apps/Music/res/drawable-hdpi/ic_search_category_music_song.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_slide_keyboard.png b/apps/Music/res/drawable-hdpi/ic_slide_keyboard.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_albums_selected.png b/apps/Music/res/drawable-hdpi/ic_tab_albums_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_albums_unselected.png b/apps/Music/res/drawable-hdpi/ic_tab_albums_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_artists_selected.png b/apps/Music/res/drawable-hdpi/ic_tab_artists_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_artists_unselected.png b/apps/Music/res/drawable-hdpi/ic_tab_artists_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_playback_selected.png b/apps/Music/res/drawable-hdpi/ic_tab_playback_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_playback_unselected.png b/apps/Music/res/drawable-hdpi/ic_tab_playback_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_playlists_selected.png b/apps/Music/res/drawable-hdpi/ic_tab_playlists_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_playlists_unselected.png b/apps/Music/res/drawable-hdpi/ic_tab_playlists_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_songs_selected.png b/apps/Music/res/drawable-hdpi/ic_tab_songs_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/ic_tab_songs_unselected.png b/apps/Music/res/drawable-hdpi/ic_tab_songs_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/indicator_ic_mp_playing_large.png b/apps/Music/res/drawable-hdpi/indicator_ic_mp_playing_large.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/indicator_ic_mp_playing_list.png b/apps/Music/res/drawable-hdpi/indicator_ic_mp_playing_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/lyric_display.png b/apps/Music/res/drawable-hdpi/lyric_display.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/lyric_hide.png b/apps/Music/res/drawable-hdpi/lyric_hide.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/midi.png b/apps/Music/res/drawable-hdpi/midi.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/movie.png b/apps/Music/res/drawable-hdpi/movie.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/music_bottom_playback_bg.9.png b/apps/Music/res/drawable-hdpi/music_bottom_playback_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/music_icon.png b/apps/Music/res/drawable-hdpi/music_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/next_press_sprd.png b/apps/Music/res/drawable-hdpi/next_press_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/next_sprd.png b/apps/Music/res/drawable-hdpi/next_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/now_playing_progress_handle_normal.png b/apps/Music/res/drawable-hdpi/now_playing_progress_handle_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/now_playing_progress_handle_pressed.png b/apps/Music/res/drawable-hdpi/now_playing_progress_handle_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/now_playing_progress_handle_selected.png b/apps/Music/res/drawable-hdpi/now_playing_progress_handle_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/panel_now_playing_progress_bar.9.png b/apps/Music/res/drawable-hdpi/panel_now_playing_progress_bar.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/panel_now_playing_progress_bg.9.png b/apps/Music/res/drawable-hdpi/panel_now_playing_progress_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/pickerbox_background.9.png b/apps/Music/res/drawable-hdpi/pickerbox_background.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/pickerbox_selected.9.png b/apps/Music/res/drawable-hdpi/pickerbox_selected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/pickerbox_unselected.9.png b/apps/Music/res/drawable-hdpi/pickerbox_unselected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/play_devider.9.png b/apps/Music/res/drawable-hdpi/play_devider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/playlist_tile_drag.9.png b/apps/Music/res/drawable-hdpi/playlist_tile_drag.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/playlist_tile_longpress.9.png b/apps/Music/res/drawable-hdpi/playlist_tile_longpress.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/playlist_tile_normal.9.png b/apps/Music/res/drawable-hdpi/playlist_tile_normal.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/playlist_tile_pressed.9.png b/apps/Music/res/drawable-hdpi/playlist_tile_pressed.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/playlist_tile_selected.9.png b/apps/Music/res/drawable-hdpi/playlist_tile_selected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/sdcard_icon.png b/apps/Music/res/drawable-hdpi/sdcard_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/stat_notify_musicplayer.png b/apps/Music/res/drawable-hdpi/stat_notify_musicplayer.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/stat_notify_musicplayer_icon.png b/apps/Music/res/drawable-hdpi/stat_notify_musicplayer_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/up_press_sprd.png b/apps/Music/res/drawable-hdpi/up_press_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-hdpi/up_sprd.png b/apps/Music/res/drawable-hdpi/up_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-land-hdpi/albumart_mp_unknown.png b/apps/Music/res/drawable-land-hdpi/albumart_mp_unknown.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-land-mdpi/albumart_mp_unknown.png b/apps/Music/res/drawable-land-mdpi/albumart_mp_unknown.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-land-xhdpi/albumart_mp_unknown.png b/apps/Music/res/drawable-land-xhdpi/albumart_mp_unknown.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/Thumbs.db b/apps/Music/res/drawable-xhdpi/Thumbs.db
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/album_border_large.9.png b/apps/Music/res/drawable-xhdpi/album_border_large.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/albumart_mp_unknown.png b/apps/Music/res/drawable-xhdpi/albumart_mp_unknown.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/albumart_mp_unknown_list.png b/apps/Music/res/drawable-xhdpi/albumart_mp_unknown_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/app_music.png b/apps/Music/res/drawable-xhdpi/app_music.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/app_video.png b/apps/Music/res/drawable-xhdpi/app_video.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_bg.9.png b/apps/Music/res/drawable-xhdpi/appwidget_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_divider.9.png b/apps/Music/res/drawable-xhdpi/appwidget_divider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_c.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_c.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_l.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_l.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_r.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_focus_r.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_press_c.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_press_c.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_press_l.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_press_l.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/appwidget_inner_press_r.9.png b/apps/Music/res/drawable-xhdpi/appwidget_inner_press_r.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/back_icon.png b/apps/Music/res/drawable-xhdpi/back_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/back_pressed.png b/apps/Music/res/drawable-xhdpi/back_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_ic_normal.png b/apps/Music/res/drawable-xhdpi/btn_playback_ic_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_ic_pause_small.png b/apps/Music/res/drawable-xhdpi/btn_playback_ic_pause_small.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_ic_play_small.png b/apps/Music/res/drawable-xhdpi/btn_playback_ic_play_small.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_play.png b/apps/Music/res/drawable-xhdpi/btn_playback_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_small_normal.png b/apps/Music/res/drawable-xhdpi/btn_playback_small_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_small_pressed.png b/apps/Music/res/drawable-xhdpi/btn_playback_small_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_small_selected.png b/apps/Music/res/drawable-xhdpi/btn_playback_small_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/btn_playback_stop.png b/apps/Music/res/drawable-xhdpi/btn_playback_stop.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/buttonbar_active.9.png b/apps/Music/res/drawable-xhdpi/buttonbar_active.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/buttonbar_focused.9.png b/apps/Music/res/drawable-xhdpi/buttonbar_focused.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/buttonbar_inactive.9.png b/apps/Music/res/drawable-xhdpi/buttonbar_inactive.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/buttonbar_pressed.9.png b/apps/Music/res/drawable-xhdpi/buttonbar_pressed.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/devider.9.png b/apps/Music/res/drawable-xhdpi/devider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/folder_icon.png b/apps/Music/res/drawable-xhdpi/folder_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_next.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_next.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_next_press.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_next_press.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_pause.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_pause.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_play.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_prev.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_prev.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_appwidget_music_prev_press.png b/apps/Music/res/drawable-xhdpi/ic_appwidget_music_prev_press.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_launcher_shortcut_music_playlist.png b/apps/Music/res/drawable-xhdpi/ic_launcher_shortcut_music_playlist.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_media_pause.png b/apps/Music/res/drawable-xhdpi/ic_media_pause.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_media_play.png b/apps/Music/res/drawable-xhdpi/ic_media_play.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_clear_playlist.png b/apps/Music/res/drawable-xhdpi/ic_menu_clear_playlist.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_delete.png b/apps/Music/res/drawable-xhdpi/ic_menu_delete.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_eq.png b/apps/Music/res/drawable-xhdpi/ic_menu_eq.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_music_library.png b/apps/Music/res/drawable-xhdpi/ic_menu_music_library.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_party_shuffle.png b/apps/Music/res/drawable-xhdpi/ic_menu_party_shuffle.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_play_clip.png b/apps/Music/res/drawable-xhdpi/ic_menu_play_clip.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_set_as_ringtone.png b/apps/Music/res/drawable-xhdpi/ic_menu_set_as_ringtone.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_menu_shuffle.png b/apps/Music/res/drawable-xhdpi/ic_menu_shuffle.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_album_playback.png b/apps/Music/res/drawable-xhdpi/ic_mp_album_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_artist_list.9.png b/apps/Music/res/drawable-xhdpi/ic_mp_artist_list.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_artist_list_expand.9.png b/apps/Music/res/drawable-xhdpi/ic_mp_artist_list_expand.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_artist_list_query.png b/apps/Music/res/drawable-xhdpi/ic_mp_artist_list_query.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_artist_playback.png b/apps/Music/res/drawable-xhdpi/ic_mp_artist_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_current_playlist_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_current_playlist_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_partyshuffle_on_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_partyshuffle_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_playlist_list.png b/apps/Music/res/drawable-xhdpi/ic_mp_playlist_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_playlist_recently_added_list.png b/apps/Music/res/drawable-xhdpi/ic_mp_playlist_recently_added_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_repeat_all_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_repeat_all_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_repeat_off_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_repeat_off_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_repeat_on_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_repeat_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_repeat_once_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_repeat_once_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_sd_card.png b/apps/Music/res/drawable-xhdpi/ic_mp_sd_card.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_shuffle_off_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_shuffle_off_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_shuffle_on_btn.png b/apps/Music/res/drawable-xhdpi/ic_mp_shuffle_on_btn.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_song_list.png b/apps/Music/res/drawable-xhdpi/ic_mp_song_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_mp_song_playback.png b/apps/Music/res/drawable-xhdpi/ic_mp_song_playback.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_search_category_music_song.png b/apps/Music/res/drawable-xhdpi/ic_search_category_music_song.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_slide_keyboard.png b/apps/Music/res/drawable-xhdpi/ic_slide_keyboard.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_albums_selected.png b/apps/Music/res/drawable-xhdpi/ic_tab_albums_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_albums_unselected.png b/apps/Music/res/drawable-xhdpi/ic_tab_albums_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_artists_selected.png b/apps/Music/res/drawable-xhdpi/ic_tab_artists_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_artists_unselected.png b/apps/Music/res/drawable-xhdpi/ic_tab_artists_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_playback_selected.png b/apps/Music/res/drawable-xhdpi/ic_tab_playback_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_playback_unselected.png b/apps/Music/res/drawable-xhdpi/ic_tab_playback_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_playlists_selected.png b/apps/Music/res/drawable-xhdpi/ic_tab_playlists_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_playlists_unselected.png b/apps/Music/res/drawable-xhdpi/ic_tab_playlists_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_songs_selected.png b/apps/Music/res/drawable-xhdpi/ic_tab_songs_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/ic_tab_songs_unselected.png b/apps/Music/res/drawable-xhdpi/ic_tab_songs_unselected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/indicator_ic_mp_playing_large.png b/apps/Music/res/drawable-xhdpi/indicator_ic_mp_playing_large.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/indicator_ic_mp_playing_list.png b/apps/Music/res/drawable-xhdpi/indicator_ic_mp_playing_list.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/lyric_display.png b/apps/Music/res/drawable-xhdpi/lyric_display.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/lyric_hide.png b/apps/Music/res/drawable-xhdpi/lyric_hide.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/midi.png b/apps/Music/res/drawable-xhdpi/midi.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/movie.png b/apps/Music/res/drawable-xhdpi/movie.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/music_bottom_playback_bg.9.png b/apps/Music/res/drawable-xhdpi/music_bottom_playback_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/music_icon.png b/apps/Music/res/drawable-xhdpi/music_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/next_press_sprd.png b/apps/Music/res/drawable-xhdpi/next_press_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/next_sprd.png b/apps/Music/res/drawable-xhdpi/next_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_normal.png b/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_normal.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_pressed.png b/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_pressed.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_selected.png b/apps/Music/res/drawable-xhdpi/now_playing_progress_handle_selected.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/panel_now_playing_progress_bar.9.png b/apps/Music/res/drawable-xhdpi/panel_now_playing_progress_bar.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/panel_now_playing_progress_bg.9.png b/apps/Music/res/drawable-xhdpi/panel_now_playing_progress_bg.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/pickerbox_background.9.png b/apps/Music/res/drawable-xhdpi/pickerbox_background.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/pickerbox_selected.9.png b/apps/Music/res/drawable-xhdpi/pickerbox_selected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/pickerbox_unselected.9.png b/apps/Music/res/drawable-xhdpi/pickerbox_unselected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/play_devider.9.png b/apps/Music/res/drawable-xhdpi/play_devider.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/playlist_tile_drag.9.png b/apps/Music/res/drawable-xhdpi/playlist_tile_drag.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/playlist_tile_longpress.9.png b/apps/Music/res/drawable-xhdpi/playlist_tile_longpress.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/playlist_tile_normal.9.png b/apps/Music/res/drawable-xhdpi/playlist_tile_normal.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/playlist_tile_pressed.9.png b/apps/Music/res/drawable-xhdpi/playlist_tile_pressed.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/playlist_tile_selected.9.png b/apps/Music/res/drawable-xhdpi/playlist_tile_selected.9.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/sdcard_icon.png b/apps/Music/res/drawable-xhdpi/sdcard_icon.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/stat_notify_musicplayer.png b/apps/Music/res/drawable-xhdpi/stat_notify_musicplayer.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/status_music.png b/apps/Music/res/drawable-xhdpi/status_music.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/up_press_sprd.png b/apps/Music/res/drawable-xhdpi/up_press_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable-xhdpi/up_sprd.png b/apps/Music/res/drawable-xhdpi/up_sprd.png
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/appwidget_button_center.xml b/apps/Music/res/drawable/appwidget_button_center.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/appwidget_button_left.xml b/apps/Music/res/drawable/appwidget_button_left.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/appwidget_button_next.xml b/apps/Music/res/drawable/appwidget_button_next.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/appwidget_button_prev.xml b/apps/Music/res/drawable/appwidget_button_prev.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/appwidget_button_right.xml b/apps/Music/res/drawable/appwidget_button_right.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/backiconbackground.xml b/apps/Music/res/drawable/backiconbackground.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/btn_check_material_anim.xml b/apps/Music/res/drawable/btn_check_material_anim.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/btn_next_selector_uui.xml b/apps/Music/res/drawable/btn_next_selector_uui.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/btn_nowplaying_background_small.xml b/apps/Music/res/drawable/btn_nowplaying_background_small.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/btn_up_selector_uui.xml b/apps/Music/res/drawable/btn_up_selector_uui.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/buttonbarbackground.xml b/apps/Music/res/drawable/buttonbarbackground.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/ic_tab_albums.xml b/apps/Music/res/drawable/ic_tab_albums.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/ic_tab_artists.xml b/apps/Music/res/drawable/ic_tab_artists.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/ic_tab_playback.xml b/apps/Music/res/drawable/ic_tab_playback.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/ic_tab_playlists.xml b/apps/Music/res/drawable/ic_tab_playlists.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/ic_tab_songs.xml b/apps/Music/res/drawable/ic_tab_songs.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/list_expand.xml b/apps/Music/res/drawable/list_expand.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/list_selector.xml b/apps/Music/res/drawable/list_selector.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/list_selector_background.xml b/apps/Music/res/drawable/list_selector_background.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/list_selector_background_transition.xml b/apps/Music/res/drawable/list_selector_background_transition.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/playlist_tile.xml b/apps/Music/res/drawable/playlist_tile.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/progress_horizontal.xml b/apps/Music/res/drawable/progress_horizontal.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/progress_horizontal_new.xml b/apps/Music/res/drawable/progress_horizontal_new.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/drawable/seek_thumb.xml b/apps/Music/res/drawable/seek_thumb.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-keysexposed/create_playlist.xml b/apps/Music/res/layout-keysexposed/create_playlist.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-keyshidden/create_playlist.xml b/apps/Music/res/layout-keyshidden/create_playlist.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/audio_player.xml b/apps/Music/res/layout-land/audio_player.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/audio_player_common.xml b/apps/Music/res/layout-land/audio_player_common.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/buttonbar.xml b/apps/Music/res/layout-land/buttonbar.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/lyric_list_item.xml b/apps/Music/res/layout-land/lyric_list_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/media_picker_activity.xml b/apps/Music/res/layout-land/media_picker_activity.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-land/media_picker_activity_expanding.xml b/apps/Music/res/layout-land/media_picker_activity_expanding.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout-port-finger-854x480/audio_player.xml b/apps/Music/res/layout-port-finger-854x480/audio_player.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/album_appwidget.xml b/apps/Music/res/layout/album_appwidget.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/audio_player.xml b/apps/Music/res/layout/audio_player.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/audio_player_common.xml b/apps/Music/res/layout/audio_player_common.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/audiopreview.xml b/apps/Music/res/layout/audiopreview.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/buttonbar.xml b/apps/Music/res/layout/buttonbar.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/confirm_delete.xml b/apps/Music/res/layout/confirm_delete.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/del_track_choice.xml b/apps/Music/res/layout/del_track_choice.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/edit_track_list_item.xml b/apps/Music/res/layout/edit_track_list_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/filemanager.xml b/apps/Music/res/layout/filemanager.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/grid_file.xml b/apps/Music/res/layout/grid_file.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/grid_item.xml b/apps/Music/res/layout/grid_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/list_file.xml b/apps/Music/res/layout/list_file.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/list_item.xml b/apps/Music/res/layout/list_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/lyric_list_item.xml b/apps/Music/res/layout/lyric_list_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/media_picker_activity.xml b/apps/Music/res/layout/media_picker_activity.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/media_picker_activity_expanding.xml b/apps/Music/res/layout/media_picker_activity_expanding.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/multi_track_choice.xml b/apps/Music/res/layout/multi_track_choice.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/multi_track_choice_list.xml b/apps/Music/res/layout/multi_track_choice_list.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/music_picker.xml b/apps/Music/res/layout/music_picker.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/music_picker_item.xml b/apps/Music/res/layout/music_picker_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/nowplaying.xml b/apps/Music/res/layout/nowplaying.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/query_activity.xml b/apps/Music/res/layout/query_activity.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/scanning.xml b/apps/Music/res/layout/scanning.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/scanning_nosdcard.xml b/apps/Music/res/layout/scanning_nosdcard.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/sd_error.xml b/apps/Music/res/layout/sd_error.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/statusbar.xml b/apps/Music/res/layout/statusbar.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/track_list_detail.xml b/apps/Music/res/layout/track_list_detail.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/track_list_item.xml b/apps/Music/res/layout/track_list_item.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/track_list_item_child.xml b/apps/Music/res/layout/track_list_item_child.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/track_list_item_common.xml b/apps/Music/res/layout/track_list_item_common.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/track_list_item_group.xml b/apps/Music/res/layout/track_list_item_group.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/layout/weekpicker.xml b/apps/Music/res/layout/weekpicker.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-af-keysexposed/strings.xml b/apps/Music/res/values-af-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-af-keyshidden/strings.xml b/apps/Music/res/values-af-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-af/strings.xml b/apps/Music/res/values-af/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-af/strings2.xml b/apps/Music/res/values-af/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-am-keysexposed/strings.xml b/apps/Music/res/values-am-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-am-keyshidden/strings.xml b/apps/Music/res/values-am-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-am/strings.xml b/apps/Music/res/values-am/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-am/strings2.xml b/apps/Music/res/values-am/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ar-keysexposed/strings.xml b/apps/Music/res/values-ar-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ar-keyshidden/strings.xml b/apps/Music/res/values-ar-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ar/strings.xml b/apps/Music/res/values-ar/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ar/strings2.xml b/apps/Music/res/values-ar/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-as/strings.xml b/apps/Music/res/values-as/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-be-keysexposed/strings.xml b/apps/Music/res/values-be-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-be-keyshidden/strings.xml b/apps/Music/res/values-be-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bg-keysexposed/strings.xml b/apps/Music/res/values-bg-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bg-keyshidden/strings.xml b/apps/Music/res/values-bg-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bg/strings.xml b/apps/Music/res/values-bg/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bg/strings2.xml b/apps/Music/res/values-bg/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bn-rBD-keysexposed/strings.xml b/apps/Music/res/values-bn-rBD-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bn-rBD-keyshidden/strings.xml b/apps/Music/res/values-bn-rBD-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bn-rBD/strings.xml b/apps/Music/res/values-bn-rBD/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bn-rWB-keysexposed/strings.xml b/apps/Music/res/values-bn-rWB-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bn-rWB-keyshidden/strings.xml b/apps/Music/res/values-bn-rWB-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-bo/strings.xml b/apps/Music/res/values-bo/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ca-keysexposed/strings.xml b/apps/Music/res/values-ca-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ca-keyshidden/strings.xml b/apps/Music/res/values-ca-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ca/strings.xml b/apps/Music/res/values-ca/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ca/strings2.xml b/apps/Music/res/values-ca/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ce/strings.xml b/apps/Music/res/values-ce/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-cs-keysexposed/strings.xml b/apps/Music/res/values-cs-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-cs-keyshidden/strings.xml b/apps/Music/res/values-cs-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-cs/strings.xml b/apps/Music/res/values-cs/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-cs/strings2.xml b/apps/Music/res/values-cs/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-da-keysexposed/strings.xml b/apps/Music/res/values-da-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-da-keyshidden/strings.xml b/apps/Music/res/values-da-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-da/strings.xml b/apps/Music/res/values-da/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-da/strings2.xml b/apps/Music/res/values-da/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-de-keysexposed/strings.xml b/apps/Music/res/values-de-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-de-keyshidden/strings.xml b/apps/Music/res/values-de-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-de/strings.xml b/apps/Music/res/values-de/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-de/strings2.xml b/apps/Music/res/values-de/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-el-keysexposed/strings.xml b/apps/Music/res/values-el-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-el-keyshidden/strings.xml b/apps/Music/res/values-el-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-el/strings.xml b/apps/Music/res/values-el/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-el/strings2.xml b/apps/Music/res/values-el/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rGB-keysexposed/strings.xml b/apps/Music/res/values-en-rGB-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rGB-keyshidden/strings.xml b/apps/Music/res/values-en-rGB-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rGB/strings.xml b/apps/Music/res/values-en-rGB/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rGB/strings2.xml b/apps/Music/res/values-en-rGB/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rIN-keysexposed/strings.xml b/apps/Music/res/values-en-rIN-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rIN-keyshidden/strings.xml b/apps/Music/res/values-en-rIN-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rIN/strings.xml b/apps/Music/res/values-en-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-en-rIN/strings2.xml b/apps/Music/res/values-en-rIN/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-keysexposed/strings.xml b/apps/Music/res/values-es-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-keyshidden/strings.xml b/apps/Music/res/values-es-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-rUS-keysexposed/strings.xml b/apps/Music/res/values-es-rUS-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-rUS-keyshidden/strings.xml b/apps/Music/res/values-es-rUS-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-rUS/strings.xml b/apps/Music/res/values-es-rUS/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es-rUS/strings2.xml b/apps/Music/res/values-es-rUS/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es/strings.xml b/apps/Music/res/values-es/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-es/strings2.xml b/apps/Music/res/values-es/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-keysexposed/strings.xml b/apps/Music/res/values-et-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-keyshidden/strings.xml b/apps/Music/res/values-et-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-rEE-keysexposed/strings.xml b/apps/Music/res/values-et-rEE-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-rEE-keyshidden/strings.xml b/apps/Music/res/values-et-rEE-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-rEE/strings.xml b/apps/Music/res/values-et-rEE/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-et-rEE/strings2.xml b/apps/Music/res/values-et-rEE/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fa-keysexposed/strings.xml b/apps/Music/res/values-fa-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fa-keyshidden/strings.xml b/apps/Music/res/values-fa-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fa/strings.xml b/apps/Music/res/values-fa/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fa/strings2.xml b/apps/Music/res/values-fa/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fi-keysexposed/strings.xml b/apps/Music/res/values-fi-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fi-keyshidden/strings.xml b/apps/Music/res/values-fi-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fi/strings.xml b/apps/Music/res/values-fi/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fi/strings2.xml b/apps/Music/res/values-fi/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-keysexposed/strings.xml b/apps/Music/res/values-fr-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-keyshidden/strings.xml b/apps/Music/res/values-fr-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-rCA-keysexposed/strings.xml b/apps/Music/res/values-fr-rCA-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-rCA-keyshidden/strings.xml b/apps/Music/res/values-fr-rCA-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-rCA/strings.xml b/apps/Music/res/values-fr-rCA/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr-rCA/strings2.xml b/apps/Music/res/values-fr-rCA/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr/strings.xml b/apps/Music/res/values-fr/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-fr/strings2.xml b/apps/Music/res/values-fr/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-gu/strings.xml b/apps/Music/res/values-gu/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ha/strings.xml b/apps/Music/res/values-ha/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hi-keysexposed/strings.xml b/apps/Music/res/values-hi-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hi-keyshidden/strings.xml b/apps/Music/res/values-hi-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hi/strings.xml b/apps/Music/res/values-hi/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hi/strings2.xml b/apps/Music/res/values-hi/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hr-keysexposed/strings.xml b/apps/Music/res/values-hr-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hr-keyshidden/strings.xml b/apps/Music/res/values-hr-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hr/strings.xml b/apps/Music/res/values-hr/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hr/strings2.xml b/apps/Music/res/values-hr/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hu-keysexposed/strings.xml b/apps/Music/res/values-hu-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hu-keyshidden/strings.xml b/apps/Music/res/values-hu-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hu/strings.xml b/apps/Music/res/values-hu/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-hu/strings2.xml b/apps/Music/res/values-hu/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-in-keysexposed/strings.xml b/apps/Music/res/values-in-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-in-keyshidden/strings.xml b/apps/Music/res/values-in-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-in/strings.xml b/apps/Music/res/values-in/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-in/strings2.xml b/apps/Music/res/values-in/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-it-keysexposed/strings.xml b/apps/Music/res/values-it-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-it-keyshidden/strings.xml b/apps/Music/res/values-it-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-it/strings.xml b/apps/Music/res/values-it/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-it/strings2.xml b/apps/Music/res/values-it/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-iw-keysexposed/strings.xml b/apps/Music/res/values-iw-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-iw-keyshidden/strings.xml b/apps/Music/res/values-iw-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-iw/strings.xml b/apps/Music/res/values-iw/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-iw/strings2.xml b/apps/Music/res/values-iw/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ja-keysexposed/strings.xml b/apps/Music/res/values-ja-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ja-keyshidden/strings.xml b/apps/Music/res/values-ja-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ja/strings.xml b/apps/Music/res/values-ja/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ja/strings2.xml b/apps/Music/res/values-ja/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-keysexposed/strings.xml b/apps/Music/res/values-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-keyshidden/strings.xml b/apps/Music/res/values-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-km-rKH/strings.xml b/apps/Music/res/values-km-rKH/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-kn-rIN/strings.xml b/apps/Music/res/values-kn-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ko-keysexposed/strings.xml b/apps/Music/res/values-ko-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ko-keyshidden/strings.xml b/apps/Music/res/values-ko-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ko/strings.xml b/apps/Music/res/values-ko/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ko/strings2.xml b/apps/Music/res/values-ko/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lo-rLA/strings.xml b/apps/Music/res/values-lo-rLA/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lt-keysexposed/strings.xml b/apps/Music/res/values-lt-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lt-keyshidden/strings.xml b/apps/Music/res/values-lt-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lt/strings.xml b/apps/Music/res/values-lt/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lt/strings2.xml b/apps/Music/res/values-lt/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lv-keysexposed/strings.xml b/apps/Music/res/values-lv-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lv-keyshidden/strings.xml b/apps/Music/res/values-lv-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lv/strings.xml b/apps/Music/res/values-lv/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-lv/strings2.xml b/apps/Music/res/values-lv/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ml-rIN/strings.xml b/apps/Music/res/values-ml-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-mr-rIN/strings.xml b/apps/Music/res/values-mr-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-keysexposed/strings.xml b/apps/Music/res/values-ms-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-keyshidden/strings.xml b/apps/Music/res/values-ms-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-rMY-keysexposed/strings.xml b/apps/Music/res/values-ms-rMY-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-rMY-keyshidden/strings.xml b/apps/Music/res/values-ms-rMY-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-rMY/strings.xml b/apps/Music/res/values-ms-rMY/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ms-rMY/strings2.xml b/apps/Music/res/values-ms-rMY/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-my-rMM/strings.xml b/apps/Music/res/values-my-rMM/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nb-keysexposed/strings.xml b/apps/Music/res/values-nb-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nb-keyshidden/strings.xml b/apps/Music/res/values-nb-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nb/strings.xml b/apps/Music/res/values-nb/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nb/strings2.xml b/apps/Music/res/values-nb/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nl-keysexposed/strings.xml b/apps/Music/res/values-nl-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nl-keyshidden/strings.xml b/apps/Music/res/values-nl-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nl/strings.xml b/apps/Music/res/values-nl/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-nl/strings2.xml b/apps/Music/res/values-nl/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-no/strings.xml b/apps/Music/res/values-no/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pa-rIN/strings.xml b/apps/Music/res/values-pa-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pl-keysexposed/strings.xml b/apps/Music/res/values-pl-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pl-keyshidden/strings.xml b/apps/Music/res/values-pl-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pl/strings.xml b/apps/Music/res/values-pl/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pl/strings2.xml b/apps/Music/res/values-pl/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-keysexposed/strings.xml b/apps/Music/res/values-pt-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-keyshidden/strings.xml b/apps/Music/res/values-pt-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-rBR/strings.xml b/apps/Music/res/values-pt-rBR/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-rPT-keysexposed/strings.xml b/apps/Music/res/values-pt-rPT-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-rPT-keyshidden/strings.xml b/apps/Music/res/values-pt-rPT-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-rPT/strings.xml b/apps/Music/res/values-pt-rPT/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt-rPT/strings2.xml b/apps/Music/res/values-pt-rPT/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt/strings.xml b/apps/Music/res/values-pt/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-pt/strings2.xml b/apps/Music/res/values-pt/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-rm-keysexposed/strings.xml b/apps/Music/res/values-rm-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-rm-keyshidden/strings.xml b/apps/Music/res/values-rm-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ro-keysexposed/strings.xml b/apps/Music/res/values-ro-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ro-keyshidden/strings.xml b/apps/Music/res/values-ro-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ro/strings.xml b/apps/Music/res/values-ro/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ro/strings2.xml b/apps/Music/res/values-ro/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ru-keysexposed/strings.xml b/apps/Music/res/values-ru-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ru-keyshidden/strings.xml b/apps/Music/res/values-ru-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ru/strings.xml b/apps/Music/res/values-ru/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ru/strings2.xml b/apps/Music/res/values-ru/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sk-keysexposed/strings.xml b/apps/Music/res/values-sk-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sk-keyshidden/strings.xml b/apps/Music/res/values-sk-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sk/strings.xml b/apps/Music/res/values-sk/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sk/strings2.xml b/apps/Music/res/values-sk/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sl-keysexposed/strings.xml b/apps/Music/res/values-sl-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sl-keyshidden/strings.xml b/apps/Music/res/values-sl-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sl/strings.xml b/apps/Music/res/values-sl/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sl/strings2.xml b/apps/Music/res/values-sl/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sq/strings.xml b/apps/Music/res/values-sq/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sr-keysexposed/strings.xml b/apps/Music/res/values-sr-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sr-keyshidden/strings.xml b/apps/Music/res/values-sr-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sr/strings.xml b/apps/Music/res/values-sr/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sr/strings2.xml b/apps/Music/res/values-sr/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sv-keysexposed/strings.xml b/apps/Music/res/values-sv-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sv-keyshidden/strings.xml b/apps/Music/res/values-sv-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sv/strings.xml b/apps/Music/res/values-sv/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sv/strings2.xml b/apps/Music/res/values-sv/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sw-keysexposed/strings.xml b/apps/Music/res/values-sw-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sw-keyshidden/strings.xml b/apps/Music/res/values-sw-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sw/strings.xml b/apps/Music/res/values-sw/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-sw/strings2.xml b/apps/Music/res/values-sw/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ta-rIN/strings.xml b/apps/Music/res/values-ta-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-te-rIN/strings.xml b/apps/Music/res/values-te-rIN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-th-keysexposed/strings.xml b/apps/Music/res/values-th-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-th-keyshidden/strings.xml b/apps/Music/res/values-th-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-th/strings.xml b/apps/Music/res/values-th/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-th/strings2.xml b/apps/Music/res/values-th/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tl-keysexposed/strings.xml b/apps/Music/res/values-tl-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tl-keyshidden/strings.xml b/apps/Music/res/values-tl-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tl/strings.xml b/apps/Music/res/values-tl/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tl/strings2.xml b/apps/Music/res/values-tl/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tr-keysexposed/strings.xml b/apps/Music/res/values-tr-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tr-keyshidden/strings.xml b/apps/Music/res/values-tr-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tr/strings.xml b/apps/Music/res/values-tr/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-tr/strings2.xml b/apps/Music/res/values-tr/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ug/strings.xml b/apps/Music/res/values-ug/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-uk-keysexposed/strings.xml b/apps/Music/res/values-uk-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-uk-keyshidden/strings.xml b/apps/Music/res/values-uk-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-uk/strings.xml b/apps/Music/res/values-uk/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-uk/strings2.xml b/apps/Music/res/values-uk/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-ur-rPK/strings.xml b/apps/Music/res/values-ur-rPK/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-vi-keysexposed/strings.xml b/apps/Music/res/values-vi-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-vi-keyshidden/strings.xml b/apps/Music/res/values-vi-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-vi/strings.xml b/apps/Music/res/values-vi/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-vi/strings2.xml b/apps/Music/res/values-vi/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rCN-keysexposed/strings.xml b/apps/Music/res/values-zh-rCN-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rCN-keyshidden/strings.xml b/apps/Music/res/values-zh-rCN-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rCN/strings.xml b/apps/Music/res/values-zh-rCN/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rCN/strings2.xml b/apps/Music/res/values-zh-rCN/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rHK-keysexposed/strings.xml b/apps/Music/res/values-zh-rHK-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rHK-keyshidden/strings.xml b/apps/Music/res/values-zh-rHK-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rHK/strings.xml b/apps/Music/res/values-zh-rHK/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rHK/strings2.xml b/apps/Music/res/values-zh-rHK/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rTW-keysexposed/strings.xml b/apps/Music/res/values-zh-rTW-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rTW-keyshidden/strings.xml b/apps/Music/res/values-zh-rTW-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rTW/strings.xml b/apps/Music/res/values-zh-rTW/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zh-rTW/strings2.xml b/apps/Music/res/values-zh-rTW/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zu-keysexposed/strings.xml b/apps/Music/res/values-zu-keysexposed/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zu-keyshidden/strings.xml b/apps/Music/res/values-zu-keyshidden/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zu/strings.xml b/apps/Music/res/values-zu/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values-zu/strings2.xml b/apps/Music/res/values-zu/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/colors.xml b/apps/Music/res/values/colors.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/config.xml b/apps/Music/res/values/config.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/dimens.xml b/apps/Music/res/values/dimens.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/strings.xml b/apps/Music/res/values/strings.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/strings2.xml b/apps/Music/res/values/strings2.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/values/styles.xml b/apps/Music/res/values/styles.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/xml/appwidget_info.xml b/apps/Music/res/xml/appwidget_info.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/res/xml/searchable.xml b/apps/Music/res/xml/searchable.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/AlbumBrowserActivity.java b/apps/Music/src/com/android/music/AlbumBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/ArtistAlbumBrowserActivity.java b/apps/Music/src/com/android/music/ArtistAlbumBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/CheckableRelativeLayout.java b/apps/Music/src/com/android/music/CheckableRelativeLayout.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/CreatePlaylist.java b/apps/Music/src/com/android/music/CreatePlaylist.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/DelTrackChoiceActivity.java b/apps/Music/src/com/android/music/DelTrackChoiceActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/DeleteItems.java b/apps/Music/src/com/android/music/DeleteItems.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/IMediaPlaybackService.aidl b/apps/Music/src/com/android/music/IMediaPlaybackService.aidl
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MediaAppWidgetProvider.java b/apps/Music/src/com/android/music/MediaAppWidgetProvider.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MediaButtonIntentReceiver.java b/apps/Music/src/com/android/music/MediaButtonIntentReceiver.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MediaPickerActivity.java b/apps/Music/src/com/android/music/MediaPickerActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MediaPlaybackActivity.java b/apps/Music/src/com/android/music/MediaPlaybackActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MediaPlaybackService.java b/apps/Music/src/com/android/music/MediaPlaybackService.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MultiTrackChoiceActivity.java b/apps/Music/src/com/android/music/MultiTrackChoiceActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicAlphabetIndexer.java b/apps/Music/src/com/android/music/MusicAlphabetIndexer.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicApplication.java b/apps/Music/src/com/android/music/MusicApplication.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicBrowserActivity.java b/apps/Music/src/com/android/music/MusicBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicLog.java b/apps/Music/src/com/android/music/MusicLog.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicPicker.java b/apps/Music/src/com/android/music/MusicPicker.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/MusicUtils.java b/apps/Music/src/com/android/music/MusicUtils.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/PlaylistBrowserActivity.java b/apps/Music/src/com/android/music/PlaylistBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/QueryBrowserActivity.java b/apps/Music/src/com/android/music/QueryBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/RenamePlaylist.java b/apps/Music/src/com/android/music/RenamePlaylist.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/RepeatingImageButton.java b/apps/Music/src/com/android/music/RepeatingImageButton.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/ScanningProgress.java b/apps/Music/src/com/android/music/ScanningProgress.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/SharedPreferencesCompat.java b/apps/Music/src/com/android/music/SharedPreferencesCompat.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/SortCursor.java b/apps/Music/src/com/android/music/SortCursor.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/TouchInterceptor.java b/apps/Music/src/com/android/music/TouchInterceptor.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/TrackBrowserActivity.java b/apps/Music/src/com/android/music/TrackBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/VerticalTextSpinner.java b/apps/Music/src/com/android/music/VerticalTextSpinner.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/VideoBrowserActivity.java b/apps/Music/src/com/android/music/VideoBrowserActivity.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/android/music/WeekSelector.java b/apps/Music/src/com/android/music/WeekSelector.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/album/bg/AlbumBGLoadTask.java b/apps/Music/src/com/sprd/music/album/bg/AlbumBGLoadTask.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/drm/MusicDRM.java b/apps/Music/src/com/sprd/music/drm/MusicDRM.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/filemanager/FileComparator.java b/apps/Music/src/com/sprd/music/filemanager/FileComparator.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/filemanager/FileInfo.java b/apps/Music/src/com/sprd/music/filemanager/FileInfo.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/filemanager/FileListAdapter.java b/apps/Music/src/com/sprd/music/filemanager/FileListAdapter.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/filemanager/FileManager.java b/apps/Music/src/com/sprd/music/filemanager/FileManager.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/filemanager/FileUtil.java b/apps/Music/src/com/sprd/music/filemanager/FileUtil.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LRC.java b/apps/Music/src/com/sprd/music/lrc/LRC.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LRCFormatException.java b/apps/Music/src/com/sprd/music/lrc/LRCFormatException.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LRCParser.java b/apps/Music/src/com/sprd/music/lrc/LRCParser.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LyricConstants.java b/apps/Music/src/com/sprd/music/lrc/LyricConstants.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LyricDataBean.java b/apps/Music/src/com/sprd/music/lrc/LyricDataBean.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/LyricListView.java b/apps/Music/src/com/sprd/music/lrc/LyricListView.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/StringConstant.java b/apps/Music/src/com/sprd/music/lrc/StringConstant.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/text/method/MovementMethod.java b/apps/Music/src/com/sprd/music/lrc/text/method/MovementMethod.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/widget/MusicIntent.java b/apps/Music/src/com/sprd/music/lrc/widget/MusicIntent.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/lrc/widget/TextView.java b/apps/Music/src/com/sprd/music/lrc/widget/TextView.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/src/com/sprd/music/utils/SPRDMusicUtils.java b/apps/Music/src/com/sprd/music/utils/SPRDMusicUtils.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/Android.mk b/apps/Music/tests/Android.mk
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/AndroidManifest.xml b/apps/Music/tests/AndroidManifest.xml
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/MusicPlayerFunctionalTestRunner.java b/apps/Music/tests/src/com/android/music/MusicPlayerFunctionalTestRunner.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/MusicPlayerLaunchPerformance.java b/apps/Music/tests/src/com/android/music/MusicPlayerLaunchPerformance.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/MusicPlayerNames.java b/apps/Music/tests/src/com/android/music/MusicPlayerNames.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/MusicPlayerStability.java b/apps/Music/tests/src/com/android/music/MusicPlayerStability.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/MusicPlayerStressTestRunner.java b/apps/Music/tests/src/com/android/music/MusicPlayerStressTestRunner.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/functional/TestPlaylist.java b/apps/Music/tests/src/com/android/music/functional/TestPlaylist.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/functional/TestSongs.java b/apps/Music/tests/src/com/android/music/functional/TestSongs.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/stress/AlbumsPlaybackStress.java b/apps/Music/tests/src/com/android/music/stress/AlbumsPlaybackStress.java
+old mode 100644
+new mode 100755
+diff --git a/apps/Music/tests/src/com/android/music/stress/MusicPlaybackStress.java b/apps/Music/tests/src/com/android/music/stress/MusicPlaybackStress.java
+old mode 100644
+new mode 100755

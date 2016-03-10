@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="onesong">1 ເພງ</string>
+<plurals name="Nsongs">
+<item quantity="other"><xliff:g id="count">%d</xliff:g> ເພງ</item>
+</plurals>
+<plurals name="Nsongscomp">
+<item quantity="other"><xliff:g id="count_for_artist">%2$d</xliff:g> ໃນ <xliff:g id="total_count">%1$d</xliff:g> ເພງ</item>
+</plurals>
+<plurals name="Nalbums">
+<item quantity="one">1 ອາລະບໍາ</item>
+<item quantity="other"><xliff:g id="count">%d</xliff:g> ອາລະບໍາ</item>
+</plurals>
+<string name="goto_start">ຫໍສະໝຸດ</string>
+<string name="party_shuffle">ການສັບຝ່າຍ</string>
+<string name="party_shuffle_off">ການສັບຝ່າຍປິດ</string>
+<string name="delete_item">​ລຶບ</string>
+<string name="shuffle_all">ສັບປ່ຽນທັງໝົດ</string>
+<string name="play_all">ເປີດທັງໝົດ</string>
+<string name="delete_artist_desc">ລຶບ​ເພງ​ທັ້ງ​ມົດ​ໂດຍ <xliff:g id="artist">%s</xliff:g>ຈາກ​ບັດ SD ບໍ່?</string>
+<string name="delete_artist_desc_nosdcard">"ຕ້ອງ​ການ​ລຶບ​ເພງ​ທັງ​ໝົດ​<xliff:g id="artist">%s</xliff:g>ທີ່​ຢູ່​ໃນທີ່​ຢູ່​ໃນ​ອຸ​​ນະ​ກອນUSBບໍ່?"</string>
+<string name="delete_album_desc">ຕ້ອງ​ການ​ລຶບ​ອາ​ລະ​ບັມ​ທັ້ງ​ໝົດ​ຢ່າງ​ຖາ​ວອນ \<xliff:g id="album">%s</xliff:g>\ ຈາກ​ບັດ SD ບໍ່?</string>
+<string name="delete_album_desc_nosdcard">" "ຕ້ອງ​ການ​ລຶບ​ອັ​ລະ​ບ້ຳ\"<xliff:g id="album">%s</xliff:g>\​ທີ່​ຢູ່​ໃນ USB ບໍ່?"""</string>
+<string name="delete_song_desc">ຕ້ອງ​ການ​ລຶບ​ຢ່າງ​ຖາ​ວອນ \<xliff:g id="song">%s</xliff:g>\ຈາກ​ບັດ SD ບໍ່?</string>
+<string name="delete_song_desc_nosdcard">"ຕ້ອງ​ການ​ລຶບ\"<xliff:g id="song">%s</xliff:g>\" ຈາກUSBບໍ່ ?"</string>
+<string name="delete_confirm_button_text">"ການເຂົ້າໃຈ"</string>
+<plurals name="NNNtracksdeleted">
+<item quantity="one">1 ເພງຖືກລົບອອກ.</item>
+<item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> ເພງໄດ້ຖືກລົບອອກ.</item>
+</plurals>
+<string name="scanning">ກໍາລັງສະແກນແຜ່ນ SD\u2026</string>
+<string name="scanning_nosdcard">ກໍາລັງສະແກນຕົວເກັບຂໍ້ມູນ USB\u2026</string>
+<string name="nowplaying_title">ດຽວນີ້ກໍາລັງເປີດ</string>
+<string name="partyshuffle_title">ການສັບຝ່າຍ</string>
+<string name="artists_title">ສິລະປິ່ນ</string>
+<string name="albums_menu">ອາລະບໍາ</string>
+<string name="albums_title">ອາລະບໍາ</string>
+<string name="tracks_menu">ເພງ</string>
+<string name="tracks_title">ເພງ</string>
+<string name="playlists_menu">ບັນຊີດົນຕີ</string>
+<string name="playlists_title">ບັນຊີດົນຕີ</string>
+<string name="videos_title">"ວິດີໂອ"</string>
+<string name="all_title">ທຸກສື່</string>
+<string name="browse_menu">ສິລະປິ່ນ</string>
+<string name="search_title">ຄົ້ນຫາ</string>
+<string name="no_tracks_title">ບໍ່ມີເພງ</string>
+<string name="no_videos_title">ບໍ່ມີວິດີໂອ</string>
+<string name="no_playlists_title">ບໍ່ມີບັນຊີດົນຕີ</string>
+<string name="delete_playlist_menu">​ລຶບ</string>
+<string name="edit_playlist_menu">ແກ້ໄຂ</string>
+<string name="rename_playlist_menu">ຕັ້ງຊື່ໃໝ່</string>
+<string name="playlist_deleted_message">ບັນຊີດົນຕີຖືກລົບ.</string>
+<string name="playlist_renamed_message">ບັນຊີດົນຕີຖືກຕັ້ງຊື່ໃໝ່.</string>
+<string name="recentlyadded">ໄດ້ເພີ່ມເຂົ້າໄປເມື່ອບໍ່ດົນມານີ້</string>
+<string name="recentlyadded_title">ໄດ້ເພີ່ມເຂົ້າໄປເມື່ອບໍ່ດົນມານີ້</string>
+<string name="podcasts_listitem">ປອດຄາສທ໌</string>
+<string name="podcasts_title">ປອດຄາສທ໌</string>
+<string name="sdcard_missing_title">"ບໍ່ມີ SD ກາດ"</string>
+<string name="sdcard_missing_title_nosdcard">ບໍ່ມີຕົວເກັບຂໍ້ມູນ USB</string>
+<string name="sdcard_missing_message">ໃນ​ມື​ຖືບໍ່​ໄດ້​ໃສ່ ບັດSD</string>
+<string name="sdcard_missing_message_nosdcard">ໃນ​ມື​ຖືບໍ່​ໄດ້​ໃສ່ໜ່ວຍ​ຄວາມ​ຈຳ USB </string>
+<string name="sdcard_busy_title">"SD ກາດ ໃຊ້ບໍ່ໄດ້"</string>
+<string name="sdcard_busy_title_nosdcard">"ອຸປະກອນຈັດເກັບຂໍ້ມູນ USB ບໍ່ມີຢູ່"</string>
+<string name="sdcard_busy_message"> ບັດSDຂອງ​ທ່ານ​ກຳ​ລັງ​ຫ​ຍຸ່ງ</string>
+<string name="sdcard_busy_message_nosdcard">ໜ່ວຍ​ຄວາມ​ຈຳ USB ຂອງ​ທ່ານ​ກຳ​ລັງ​ຫ​ຍຸ່ງ</string>
+<string name="sdcard_error_title">ແຜ່ນ SD ຂັດຂ້ອງ</string>
+<string name="sdcard_error_title_nosdcard">ຕົວເກັບຂໍ້ມູນ USB ຂັດຂ້ອງ</string>
+<string name="sdcard_error_message">ຄວາມຂັດຂ້ອງໄດ້ເກີດຂຶ້ນຢູ່ໃນແຜ່ນ SD ຂອງທ່ານ.</string>
+<string name="sdcard_error_message_nosdcard">ຄວາມຂັດຂ້ອງໄດ້ເກີດຂຶ້ນຢູ່ໃນຕົວເກັບຂໍ້ມູນ USB ຂອງທ່ານ.</string>
+<string name="unknown_artist_name">ສິລະປິ່ນທີ່ບໍ່ຮູ້ຈັກ</string>
+<string name="unknown_album_name">ອາລະບໍາທີ່ບໍ່ຮູ້ຈັກ</string>
+<string name="shuffle_on_notif">ການສັບປ່ຽນເປີດ.</string>
+<string name="shuffle_off_notif">ການສັບປ່ຽນປິດ.</string>
+<string name="repeat_off_notif">ການຊໍ້າຄືນປິດ.</string>
+<string name="repeat_current_notif">ກໍາລັງເປີດເພງປະຈຸບັນຊໍ້າຄືນ.</string>
+<string name="repeat_all_notif">ກໍາລັງເປີດທຸກເພງຊໍ້າຄືນ.</string>
+<string name="ringtone_menu">ໃຊ້ເປັນສຽງເອີ້ນເຂົ້າໂທລະສັບ</string>
+<string name="ringtone_menu_short">"ໃຊ້ເປັນສຽງລິງໂທນ"</string>
+<string name="ringtone_set">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ໄດ້ຕັງເປັນສຽງເອີ້ນເຂົ້າໂທລະສັບ.</string>
+<string name="play_selection">ເປີດ</string>
+<string name="add_to_playlist">ເພີ່ມໃສ່ບັນຊີດົນຕີ</string>
+<string name="queue">ບັນຊີດົນຕີປະຈຸບັນ</string>
+<string name="new_playlist">ໃໝ່</string>
+<string name="new_playlist_name_template">ບັນຊີດົນຕີໃໝ່ <xliff:g id="number">%d</xliff:g></string>
+<plurals name="NNNtrackstoplaylist">
+<item quantity="one">1 ເພງໄດ້ເອົາເພີ່ມເຂົ້າໃສ່ບັນຊີດົນຕີ.</item>
+<item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> ເພງໄດ້ເພີ່ມເຂົ້າໃສ່ບັນຊີດົນຕີ.</item>
+</plurals>
+<string name="emptyplaylist">ບັນຊີທີ່ໄດ້ເລືອກໄວ້ຫວ່າງເປົ່າ.</string>
+<string name="create_playlist_create_text">ຈັດເກັບ</string>
+<string name="create_playlist_overwrite_text">ຂຽນທັບໃສ່</string>
+<string name="service_start_error_title">ບັນຫາການເປີດກັບຄືນ</string>
+<string name="service_start_error_msg">"ບໍ່​ສາ​ມາດ​ຫລີ້ນ​ເພງ​ນີ້"</string>
+<string name="service_start_error_button">"ການເຂົ້າໃຈ"</string>
+<string-array name="weeklist">
+<item>"1 ອາທິດ"</item>
+<item>2 ອາທິດ</item>
+<item>3 ອາທິດ</item>
+<item>4 ອາທິດ</item>
+<item>5 ອາທິດ</item>
+<item>6 ອາທິດ</item>
+<item>7 ອາທິດ</item>
+<item>8 ອາທິດ</item>
+<item>2 ອາທິດ</item>
+<item>10 ອາທິດ</item>
+<item>10 ອາທິດ</item>
+<item>10 ອາທິດ</item>
+</string-array>
+<string name="weekpicker_set">ດຳເນີນການສຳເລັດ</string>
+<string name="weekpicker_title">ຕັ້ງເວລາ</string>
+<string name="save_as_playlist">ບັນທຶກເປັນບັນຊີດົນຕີ</string>
+<string name="clear_playlist">ລົບບັນຊີດົນຕີ</string>
+<string name="musicbrowserlabel">ດົນຕີ</string>
+<string name="musicshortcutlabel">ບັນຊີດົນຕີ</string>
+<string name="mediaplaybacklabel">ດົນຕີ</string>
+<string name="videobrowserlabel">"ວິດີໂອ"</string>
+<string name="mediapickerlabel">ດົນຕີ</string>
+<string name="playback_failed">"ເຄື່ອງ​ຫລີ້ນ​ເພງ​ນີ້ບໍ່​ສະ​ໜັບ​ສະ​ໜຸນ​ໄຟ​ລ໌​ເພງ​ປະ​ເພດ​ນີ້"</string>
+<string name="cancel">ຍົກເລີກ</string>
+<string name="remove_from_playlist">ເອົາອອກໄປຈາກບັນຊີ</string>
+<string name="streamloadingtext">ກຳ​ລັງ​ເຊື່ອມ​ຕໍ່ <xliff:g id="host">%s</xliff:g>\u2026</string>
+<string name="mediasearch">ຄົ້ນຫາ <xliff:g id="term" example="Beethoven">%s</xliff:g> ໂດຍການໃຊ້:</string>
+<string name="working_artists">ສິລະປິ່ນ, ອາລະບໍາ, ແລະເພງ</string>
+<string name="working_albums">ອາລະບໍາ\u2026</string>
+<string name="working_songs">ເພງ</string>
+<string name="working_playlists">ບັນຊີດົນຕີ</string>
+<string name="loading">ກໍາລັງໂຫຼດ\u2026</string>
+<string name="sort_by_track">ເພງ <xliff:g id="track_number">%d</xliff:g></string>
+<string name="sort_by_album">ອາລະບໍາ</string>
+<string name="sort_by_artist">ສິລະປິ່ນ</string>
+<string name="music_picker_title">ເລືອກແທ​ຣ໊ກເພງ</string>
+<string name="search_settings_description">ສິລະປິ່ນ, ອາລະບໍາ, ແລະເພງ</string>
+<string name="search_hint">ຄົ້ນຫາດົນຕີ</string>
+<string name="fast_scroll_alphabet"> ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+<string name="widget_initial_text">ສຳ​ພັດ​ເພື່ອ​ເລືອກ​ເພງ</string>
+<string name="effectspanel">ສຽງສະທ້ອນ</string>
+<string name="no_play">"ຂະ​ນະ​ຂີ້ບໍ່​ສາ​ມາດ​ຫລີ້ນ​ເພງ"</string>
+<string name="activity_title_delete">"ຍ້າຍ​ເພງ"</string>
+<string name="activity_title">ເພີ່ມດົນຕີ</string>
+<string name="add_music">ເພີ່ມດົນຕີ</string>
+<string name="music_selected_all">ເລືອກທັງໜົດ</string>
+<string name="confirm_add">ເພີ່ມ</string>
+<string name="cancel_add">ຍົກເລີກ</string>
+<string name="delete_all_music">ລົບອອກ</string>
+<string name="confirm_delete">ລົບອອກ</string>
+<string name="music_selected_all_delete">ເລືອກເຮັດໃຫ້ປຸ່ມໜຶ່ງຫວ່າງເປົ່າ</string>
+<string name="music_cancle_selected_all">ຍົກເລີກທັງໝົດ</string>
+<string name="being_add">"ກຳ​ລັງ​ຫລີ້ນ,ກະ​ລຸ​ນາ​ລໍ​ຖ້າ ..."</string>
+<string name="remove_track">"ກຳ​ລັງ​ຍ້າຍ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ"</string>
+<string name="invalid">"ບໍ່​ສາ​ມາດ​ເປີດ​ໄດ​ເຣັກ​ເທີ​ຣີ​ນີ້"</string>
+<string name="from_library">"ເພີ່ມ​ເພງ​ຈາກ​ສາງ​ເພງ"</string>
+<string name="from_folder">"ເພີ່ມ​ເພງ​ຈາກ​ໂຟ​ລ​ເດີ"</string>
+<string name="lyrics_edit_title">"ແກ້​ໄຂ​ເນື້ອ​ເພງ"</string>
+<string name="nolrc">"ບໍ່​ມີບົດ​ເພງ​ຫຼື​ໄຟ​ລ໌​ບົດ​ເພງບໍ່​ຖືກ​ຕ້ອງ"</string>
+<string name="del_track">"ກຳ​ລັງ​ລຶບ ກະ​ລຸ​ນາ​ລໍ​ຖ້າ"</string>
+<string name="ringtone_title_sim1">"SIM1 ລິງໂທນມືຖື"</string>
+<string name="ringtone_title_sim2">"SIM2 ລິງໂທນມືຖື"</string>
+<string name="ringtone_set_sim1">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ໄດ້ຕັງເປັນສຽງເອີ້ນເຂົ້າໂທລະສັບ SIM1.</string>
+<string name="ringtone_set_sim2">\"<xliff:g id="name" example="Alarm Bell">%s</xliff:g>\" ໄດ້ຕັງເປັນສຽງເອີ້ນເຂົ້າໂທລະສັບ SIM1.</string>
+<string name="ring_set_fail">"ຂໍອະໄພ, ເພງບໍ່ສາມາດຫຼິ້ນໄດ້. ກະລຸນາເລືອກເພງອື່ນເປັນ​ສຽງ​ເອີ້ນ​ເຂົ້າ"</string>
+<string name="ring_set_silent_vibrate">"ຮູບ​ແບບ​ຂະ​ນະ​ນີ້ບໍ່​ສະ​ໜັບ​ສະ​ໜຸນ​ຣີງ​ໂທນ​ກຳ​ໜົດ​ເອງ"</string>
+<string name="please_insert_sim_card">"ກະ​ລຸ​ນາ​ໃສ່​ຢ່າງ​ໜ້ອຍ​ໜື່ງSIM"</string>
+<string name="create_playlist_warning">"ບໍ່ສາມາດນໍາໃຊ້ຊື່ດຽວກັນກັບເພງ​ທີ່ເພີ່ມບໍ່ດົນມານີ້"</string>
+<string name="overwrite_playlist_alert">"​ຂໍ້​ມູນລາຍ​ການ​ເພງ​ໃນ “<xliff:g id="NAME">%s</xliff:g>” ​ຈະ​ຖືກ​ລຶບ."</string>
+<string name="playlist_created_message">"ລາຍ​ການ​ເພງ​ໄດ້​ສ້າງ​ໃໝ່​ແລ້ວ."</string>
+<string name="overwrite_playlist_alert_rename">"​ຂໍ້​ມູນລາຍ​ການ​ເພງ​ໃນ “<xliff:g id="NAME">%s</xliff:g>” ປົກ​ຄຸມ."</string>
+<string name="delete_artist">"ຕ້ອງ​ການ​ລຶບ​ເພງ​ທັ້ງ​ໝົດ\"<xliff:g id="artist">%s</xliff:g>\ອອກ​ຈາກ​ອຸ​ປະ​ກອນບໍ່?"</string>
+<string name="delete_album">"ຕ້ອງ​ການ​ລຶບ​ອັ​ລ​ລະ​ບ້ຳ​ທັ້ງ​ໝົດ​ຢ່າງ​ຖາ​ວອນ​ <xliff:g id="artist">%s</xliff:g> ຈາກ​ອຸ​ປະ​ກອນ?"</string>
+<string name="delete_song">"ຕ້ອງ​ການ​ລຶບ​ຢ່າງ​ຖາ​ວອນ​ <xliff:g id="artist">%s</xliff:g> ຈາກ​ອຸ​ປະ​ກອນ?"</string>
+<string name="display_music">ດົນຕີ</string>
+<string name="quit">ຍົກເລີກ</string>
+<string name="delete_playlist_message">"ແນ່​ໃຈ​ວ່າ​ທ່ານ​ຕ້ອງ​ການ​ລຶບ​ລາຍ​ການ​ເພງ "%1$s"？</string>
+</resources>
